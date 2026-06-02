@@ -1,0 +1,12 @@
+/run/numberOfThreads 4
+/run/initialize
+/gps/particle neutron
+/gps/energy 2.5  MeV  
+/gps/direction 0 0 1
+/gps/pos/type Plane
+/gps/pos/shape Rectangle
+/gps/pos/centre 0.0 0.0 -19 mm
+/gps/pos/halfx 50 mm
+/gps/pos/halfy 50 mm
+/run/printProgress 5
+/run/beamOn 100000000
